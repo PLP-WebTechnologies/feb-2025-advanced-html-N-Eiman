@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML, Lists,images, tables & forms</title>
+  <style>
+    body {
+      background-color: #e40b5e;
+      color: #fff;
+    }
+
+    table {
+      background-color: #e2e4dd;
+      border-collapse: collapse;
+      width: 100%;
+      color:#e40b5e;
+    }
+  </style>
+  
+  
+  </head>
+  <body>
+
+    <!-- HTML Lists --> 
+    <h2>HTML Lists</h2>
+    <h3>Ordered List</h3>
+      <ol type="I">
+        <li>Penguin</li>
+        <li>Giraffe</li>
+        <li>Lion</li>
+        <li>Buffalo</li>
+      </ol>
+
+    <h3>Unordered Lists</h3>
+    <ul type="square">
+      <li>Water</li>
+      <li>H20</li>
+      <li>Basic Need</li>
+      <li>Apple</li>
+    </ul>
+
+    <h3>Defintion Lists</h3>
+    <dl>
+      <dt>SQL</dt>
+      <dd>Structured Query Language</dd>
+      <dt>RSA</dt>
+      <dd>Republic of South Africa</dd>
+      <dt>HTML</dt>
+      <dd>Hypertext MarkUp Language</dd>
+    </dl>
+
+<!-- HTML Image --> 
+    <h3>Images</h3>
+    <img
+      src="https://images.pexels.com/photos/16844777/pexels-photo-16844777/free-photo-of-food-and-cameras-on-a-blanket-on-a-picnic.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+      alt="A picture of a food and cameras on a blanket on a picnic" width="400px"
+    />
+
+    <!-- HTML Tables --> 
+    <h3>HTML Tables</h3>
+      <table border="1">
+          <caption>Contact Details</caption>
+          <thead>
+              <tr>
+              <th>Name</th>
+              <th>Address</th>
+              <th>mobile</th>
+              <th>email</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>George Magso</td>
+                  <td>267 Samali Street, Soweto, Johannesburg</td>
+                  <td>+27 123 456 5643</td>
+                  <td>g8KjD@example.com</td>
+
+              </tr>
+              <tr>
+                  <td>Georgina Websta</td>
+                  <td>55 Kagiso Street, Soweto, Johannesburg</td>
+                  <td>+27 123 456 7893</td>
+                  <td>ZyK4C@example.com</td>
+              </tr>
+              <tr>
+                  <td>Makhi Maak</td>
+                  <td>43 Kagiso Street, Soweto, Johannesburg</td>
+                  <td>+27 123 456 8888</td>
+                  <td>tgyf@example.com</td>
+              </tr>
+              <tfooter>
+                  <tr>
+              <th>Name</th>
+              <th>Address</th>
+              <th>mobile</th>
+              <th>email</th>
+              </tr>
+              </tfooter>
+          </tbody>     
+    </table>
+
+<!-- HTML Forms --> 
+    <h3>Registration Form</h3>
+      <form action="/submit-form" method="POST">
+      <label for="name">Name :</label><br />
+      <br />
+      <input type="text" id="name" name="name" placeholder="Name" required /><br />
+      <br />
+      <label for="lname">Last-Name :</label><br />
+      <br />
+      <input type="text" id="lname" name="lname" placeholder="Last-Name" required /><br />
+      <br />
+      <label for="email">Email :</label><br />
+      <br />
+      <input type="email" id="email" name="email" placeholder="Email" required /><br />
+      <br />
+      <label for="password">Password  :</label><br />
+      <br />
+      <input type="password" id="password" name="password" placeholder="Password" required /><br />
+      <br />
+      
+      
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender" value="Male">Male
+      <input type="radio" name="gender" value="Female">Female
+      <br />
+      <br />
+      <label for="languages">Language</label>
+      <input type="checkbox" name="languages" value="English">English
+      <input type="checkbox" name="languages" value="English">Isizulu
+      <input type="checkbox" name="languages" value="Sesotho">Sesotho
+      <br />
+      <br />
+      <label for="country">Country</label>
+                  <select name="country" id="country">
+                      <option>--Select Country--</option>
+                      <option value="South Africa">South Africa</option>
+                      <option value="Namibia">Namibia</option>
+                      <option value="Tanzania">Tanzania</option>
+                      <option value="Rwanda">Rwanda</option>
+                      <option value="Nigeria">Nigeria</option>
+                      <option value="Ghana">Ghana</option>
+                  </select>
+                  <br><br>
+                  <input type="submit" value="Register"> 
+                  <button type="reset">Cancel</button> 
+            </form>
+
+            <!-- HTML video -->
+            <h3>HTML Video</h3>
+            <video src="video.mp4" width="400px" controls mute autoplay></video> 
+
+            <!-- HTML Audio -->
+             <h3>HTML Audio</h3>
+             <audio src="audio.mp3" controls></audio>
+
+</main>
+    <footer></footer>
+  </body>
+</html>
